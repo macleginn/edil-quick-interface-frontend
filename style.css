@@ -1,0 +1,73 @@
+body {
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    font-family: 'Liberation Mono';
+    font-size: 13pt;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.has-border {
+    border: 1px solid black;
+}
+
+div#header {
+    padding-left: 15px;
+    grid-column: 1/3;
+}
+
+div#contents {
+    display: grid;
+    grid-template-columns: 400px auto;
+    border: 1px solid black;
+}
+
+div#wordforms,
+div#lemmas,
+div#results {
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+div#results {
+    font-family: 'Georgia';
+    line-height: 2em;
+    font-size: 14pt;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div#select-input {
+    display: grid;
+    grid-template-columns: 120px 120px auto;
+}
+
+div.select-button {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    grid-column: auto;
+}
+
+div.select-button-disabled {
+    background-color: black;
+    color: white;
+}
+
+input {
+    font-family: 'Liberation Mono';
+    font-size: 11pt;
+}
+
+div#variants {
+    width: 344px;
+    margin: 15px;
+    padding: 5px;
+}

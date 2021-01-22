@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternative eDIL interface</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="contents">
+        <div id="header" class="has-border">
+            <h1>Alternative eDIL search interface</h1>
+        </div>
+        <div id="menu" class="has-border">
+            <div id="select-input">
+                <div class="select-button select-button-disabled">
+                    Wordforms
+                </div>
+                <div class="select-button">
+                    <a href="lemmas.html">Lemmas</a>
+                </div>
+            </div>
+            <div id="wordforms">
+                <label for="wordform-input">Start typing a wordform:</label>
+                <input type="text" id="wordform-input" style="width: 350px;">
+            </div>
+            <div id="variants" class="has-border">
+                Waiting for input...
+            </div>
+        </div>
+        <div id="results" class="has-border"></div>
+    </div>
+</body>
+
+</html>
